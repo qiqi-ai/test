@@ -14,7 +14,7 @@ const RecipeComponent: FunctionComponent<RecipeComponentType> = ({
 }) => {
   return (
     <div
-      className={`w-[152px] h-[137px] rounded-xl bg-gray-200 flex flex-col items-start justify-start p-1 box-border text-left text-[14px] text-white font-pingfang-sc ${className}`}
+      className={`w-[152px] h-[137px] rounded-xl bg-gray-200 flex flex-col items-start justify-start p-1 box-border text-left text-sm text-white font-pingfang-sc ${className}`}
       data-property1={property1}
     >
       <div className="self-stretch flex-1 rounded-xl flex flex-col items-center justify-between pt-0 px-0 pb-2.5 bg-[url('/public/food-information@3x.png')] bg-cover bg-no-repeat bg-[top]">

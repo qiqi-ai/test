@@ -9,6 +9,8 @@ module.exports = {
           "200": "rgba(255, 255, 255, 0.64)",
         },
         white: "#fff",
+        darkslategray: "#333",
+        darkgray: "#999",
       },
       spacing: {},
       fontFamily: {
@@ -21,6 +23,7 @@ module.exports = {
     },
     fontSize: {
       xs: "12px",
+      sm: "14px",
       inherit: "inherit",
     },
   },

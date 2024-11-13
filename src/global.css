@@ -1,12 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=PingFang+HK:wght@400&display=swap");
 @font-face {
   font-family: "PingFang SC";
-  src: url("/public/PingFang SC Medium.otf");
-  font-weight: 600;
-}
-@font-face {
-  font-family: "PingFang HK";
   src: url("/public/PingFang SC Regular.otf");
   font-weight: 400;
+}
+@font-face {
+  font-family: "PingFang SC";
+  src: url("/public/PingFang SC Light.otf");
+  font-weight: 500;
 }
 
 @tailwind base;
