@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "PingFang SC";
+  src: url("/public/PingFang SC Medium.otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "PingFang HK";
+  src: url("/public/PingFang SC Regular.otf");
+  font-weight: 400;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
