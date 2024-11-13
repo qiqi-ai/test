@@ -1,4 +1,6 @@
 import { FunctionComponent } from "react";
+import VectorIcon from "./VectorIcon";
+import AppIconsplan from "./AppIconsplan";
 
 export type WidgetRecipeIntroductionType = {
   className?: string;
@@ -13,19 +15,9 @@ const WidgetRecipeIntroduction: FunctionComponent<
     >
       <div className="self-stretch flex-1 flex flex-row items-start justify-between">
         <div className="flex flex-col items-start justify-start">
-          <img
-            className="w-[74px] h-[74px] relative"
-            loading="lazy"
-            alt=""
-            src="/vector.svg"
-          />
+          <VectorIcon />
         </div>
-        <img
-          className="h-[41px] w-[41px] relative object-cover"
-          loading="lazy"
-          alt=""
-          src="/appiconsplan@2x.png"
-        />
+        <AppIconsplan />
       </div>
       <div className="w-[136px] h-[30px] flex flex-col items-start justify-end gap-1">
         <div className="self-stretch relative leading-[12px]">bibi食谱</div>
